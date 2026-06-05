@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>ระบบคิวหน่วยเคลื่อนย้าย</title>
+
+<style>
+
+body{
+background:#071c38;
+font-family:Arial;
+color:white;
+margin:0;
+padding:30px;
+}
+
+h1{
+text-align:center;
+font-size:50px;
+}
+
+.container{
+display:flex;
+justify-content:center;
+gap:40px;
+}
+
+.box{
+width:500px;
+border:2px solid #2d8cff;
+border-radius:15px;
+padding:20px;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.wait{
+color:#3cff3c;
+font-size:55px;
+font-weight:bold;
+text-align:center;
+}
+
+.done{
+color:#ff3c3c;
+font-size:55px;
+font-weight:bold;
+text-align:center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>ระบบคิวหน่วยเคลื่อนย้าย</h1>
+
+<div class="container">
+
+<div class="box">
+<div class="title">รอคิว</div>
+
+<div class="wait">Sukkitd</div>
+<div class="wait">Anuchid</div>
+<div class="wait">Poomrape</div>
+<div class="wait">Wutipoing</div>
+<div class="wait">Pini</div>
+
+</div>
+
+<div class="box">
+<div class="title">คิวไปแล้ว</div>
+
+<div class="done">A007</div>
+<div class="done">A006</div>
+<div class="done">A005</div>
+<div class="done">A004</div>
+<div class="done">A003</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
